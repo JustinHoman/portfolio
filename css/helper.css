@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.active {
+  background-color: #66bb6a !important;
+}
+
+.logo {
+  font-weight: bold !important;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.inline_ul li{
+  display: inline;
+}
+
+.button {
+  margin: 5px;
+  padding: 6px 8px 6px 8px;
+}
+
+.button i {
+  display: inline;
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: inherit;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1.2;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
