@@ -5,12 +5,14 @@ body {
 }
 
 header {
-  background-color: #4caf50;
+  background-color: #43a047;
 }
 
 nav {
   text-transform: uppercase;
   color: white;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 a {
@@ -22,7 +24,7 @@ a {
   background-color: #2e7d32;
 }
 
-a:hover{
+.button:hover{
   background-color: #66bb6a;
 }
 
@@ -44,6 +46,10 @@ body {
 
 .logo {
   font-weight: bold !important;
+}
+
+.logo img {
+  width: 30px;
 }
 
 .container {
@@ -80,3 +86,4 @@ body {
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
+}
