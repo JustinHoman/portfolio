@@ -20,6 +20,12 @@ a {
   color: white;
 }
 
+embed {
+  width: 80%;
+  height: 900px;
+  padding-top: 50px;
+}
+
 .button {
   background-color: #2e7d32;
 }
@@ -41,7 +47,7 @@ body {
   float: right;
 }
 
-.active {
+.active_acc {
   background-color: #66bb6a !important;
 }
 
@@ -81,6 +87,10 @@ main {
   width: 350px;
 }
 
+.home {
+  height: 700px;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -94,4 +104,66 @@ main {
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
+}
+
+
+button.accordion {
+  background-color: #9e9e9e;
+  color: #EEE;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  margin: 8px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #66bb6a;
+}
+
+button.accordion1 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  margin: 8px;
+
+  margin-right: -4%;
+}
+
+button.accordion1.active, button.accordion1:hover {
+    background-color: #66bb6a;
+}
+
+button.accordion2 {
+  display: none;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  margin: 8px;
+}
+
+button.accordion2.active, button.accordion2:hover {
+    background-color: #66bb6a;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
 }
